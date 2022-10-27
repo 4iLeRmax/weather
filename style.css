@@ -1,0 +1,23 @@
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+.primary{
+  margin-bottom: 20px;
+}
+.primary.first.error{
+  border: 1px solid red;
+}
+.primary.first.error::placeholder{
+  color: red;
+  opacity: 0.6;
+}
+.primary.second.error{
+  border: 1px solid red;
+}
+.primary.second.error::placeholder{
+  color: red;
+  opacity: 0.6;
+}
